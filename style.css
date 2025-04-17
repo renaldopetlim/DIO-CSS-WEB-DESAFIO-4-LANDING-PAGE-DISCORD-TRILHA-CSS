@@ -138,3 +138,84 @@
     height: 14vh;
     background-color: #23272A;
 }
+
+/* -------------------- MEDIA QUERIES -------------------- */
+
+@media (max-width: 600px) {
+        /* HEADER */
+    .container{
+        margin: 0 4vw 0 4vw;
+    }
+        #header h1{
+            font-size: 32px;
+        }
+        #header p{
+            font-size: 16px;
+        }
+        .container div{
+            flex-direction: column;
+        }
+            .container div button{
+                width: 90vw;
+            }
+        /* SECTION */
+    #section-1{
+        flex-direction: column;
+        padding: 4vw;
+    }
+        #section-1 img{
+            width: 100%;
+        }
+            #section-1 div h2{
+                font-size: 24px;
+                text-align: center;
+            }
+            #section-1 div p{
+                text-align: center;
+            }
+    #section-2{
+        flex-direction: column-reverse;
+        padding: 4vw;
+    }
+        #section-2 img{
+            width: 100%;
+        }
+            #section-2 div h2{
+                font-size: 24px;
+                text-align: center;
+            }
+            #section-2 div p{
+                text-align: center;
+            }
+    #section-3{
+        flex-direction: column;
+        padding: 4vw;
+    }
+        #section-3 img{
+            width: 100%;
+        }
+            #section-3 div h2{
+                font-size: 24px;
+                text-align: center;
+            }
+            #section-3 div p{
+                text-align: center;
+            }
+    #section-4{
+        padding: 4vw;
+        height: auto;
+    }
+        #section-4 div img{
+            width: 100%;
+        }
+        #section-4 div h2{
+            text-align: center;
+        }
+        /* FOOTER */
+    #footer{
+        height: 6vh;
+    }
+        #footer img{
+            width: 30vw;
+        }
+}
